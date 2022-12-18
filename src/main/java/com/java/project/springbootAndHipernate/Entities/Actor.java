@@ -21,6 +21,7 @@ public class Actor {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
+	public Actor() {}
 	public int getId() {
 		return id;
 	}
@@ -39,10 +40,4 @@ public class Actor {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
-	
-	
-	
-	
-
 }
